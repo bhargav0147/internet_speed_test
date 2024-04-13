@@ -42,12 +42,14 @@ class _SpeedTestPageState extends State<SpeedTestPage> {
                 enableLoadingAnimation: true,
                 animationDuration: 5000,
                 axes: [
+                
                   RadialAxis(
                     
                     showLastLabel: true,
                     useRangeColorForAxis: true,
                     minimum: 0,
                     maximum: 100,
+
                     axisLabelStyle: const GaugeTextStyle(color: Color(0xff32E3CF)),
                     ranges: [
                       GaugeRange(
